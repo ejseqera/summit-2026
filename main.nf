@@ -1,8 +1,3 @@
-nextflow.enable.dsl=2
-
-params.report = "${projectDir}/1st_VM_run_results.html"
-params.outdir = "results"
-
 process EMIT_REPORT {
     publishDir params.outdir, mode: 'copy'
 
